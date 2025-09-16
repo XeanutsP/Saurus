@@ -1,6 +1,5 @@
 import { FC, ReactNode } from "react";
 import Image from "next/image";
-
 interface VerticalComponent {
   children?: ReactNode;
   imageUrl?: string;
@@ -15,7 +14,7 @@ const VerticalCard: FC<VerticalComponent> = ({
   hrefLinks,
 }) => {
   return (
-    <div className="grid grid-cols-1 grid-rows-3 gap-4 h-0">
+    <div className="flex flex-col">
       {imageUrl && (
         <Image
           src={imageUrl}
@@ -27,7 +26,7 @@ const VerticalCard: FC<VerticalComponent> = ({
       )}
       <h4 className="">{title}</h4>
       {children}
-      <a href={hrefLinks} className="flex-1 bg-cyan-300 text-black hover:bg-amber-800 transition-colors hover:text-white">
+      <a href={hrefLinks} className=" bg-cyan-200 text-black hover:bg-white dark:bg-purple-800 dark:text-white dark:hover:bg-blue-300 dark:hover:text-black transition-colors duration-300">
         Visit
       </a>
     </div>
