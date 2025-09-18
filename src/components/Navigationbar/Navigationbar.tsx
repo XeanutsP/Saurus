@@ -16,7 +16,7 @@ export default function NavigationBar() {
       <a href="/spiningsaurus">Spinning Saurus</a>
 
     <div className="flex ml-auto gap-2">
-    <span className="text-xs">light and dark are switched based on system</span>
+    
     <button type="button" onClick={() => switchColorTheme}>Switch to {isMono? 'Colorful' : 'Monochrome'}</button>
     </div>
     

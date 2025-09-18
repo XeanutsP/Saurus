@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 
+import LocalNavigation from "@/components/LocalNavigation/LocalNavigation";
+
 export default function SpiningSaurus() {
   const [color, setColor] = useState({
     color:'red'
@@ -18,6 +20,7 @@ export default function SpiningSaurus() {
       <h1>Spining Saurus</h1>
       <p>Yea yea... If you wonder </p>
       <button onClick={() => changeColor("red")}></button>
+      <LocalNavigation/>
     </div>
   );
 }

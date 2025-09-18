@@ -1,12 +1,16 @@
 {
   "name": "saurus",
   "version": "0.1.0",
+  "homepage":"XeanutsP.github.com",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "dev-https": "next dev --turbopack --experimental-https",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@react-three/fiber": "^9.3.0",
