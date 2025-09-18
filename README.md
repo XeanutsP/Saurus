@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) project bootstrapped wit-- Hey!!!<br>
 
-## Getting Started
+This is Saurus project in which there are many places to explore (if created).<br>
 
-First, run the development server:
+## Saurus
 
-```bash
+"Where is my lovely saurus!? I expext those will be in the `\public` cage..."<br>
+"What do you mean. Gone?"<br>
+"Urgh... forget it. I'll get new one"<br>
+
+## What can you do when cloned
+
+ehh.. Not much.
+
+Local server start
+
+``` shell
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Local server start with https (required to use geolocation)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+``` shell
+npm run dev-https
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Build projects
 
-## Learn More
+``` shell
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Run built project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+``` shell
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Export project for shipping
 
-## Deploy on Vercel
+``` shell
+npm run export
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deploy to github pages
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+``` shell
+npm run deploy
+```
+
+## What benefits do I get from this.
+
+> Maybe I'll renovate into my museum or art gallery. Who knows~?!
